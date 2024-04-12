@@ -31,7 +31,7 @@ This project is a static website implementation inspired by the design and funct
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/youtube-clone-responsive-web.git
+   git clone https://github.com/muhammadayaz77/YouTube-Clone.git
    ```
 
 2. Navigate to the project directory:
@@ -46,7 +46,7 @@ This project is a static website implementation inspired by the design and funct
    python -m http.server
    ```
 
-4. Visit `http://localhost:8000` to view the application.
+4. Visit `[http://localhost:8000](https://muhammadayaz77.github.io/YouTube-Clone/)` to view the application.
 
 ## Contribution Guidelines
 
@@ -60,7 +60,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the Me.
 
 ## Acknowledgements
 
