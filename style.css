@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.con-head .img1{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.con-head{
+    display: flex;
+    justify-content: space-between;
+    /* height: 100px; */
+    margin: 10px;
+    /* background-color: #cdcdcd; */
+}
+.con i{
+    padding: 0 5px;
+    font-size: 20px;
+}
+.con-head .c{
+    background-color: #f8f4f4;
+    padding-right:10px;
+    border-radius: 20px;
+    border: 1px solid #cdcdcd;
+}
+.con-head #in1{
+    width: 350px;
+    padding: 10px 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: unset;
+    outline: unset;
+    border: 1px solid #e3e1e1;
+}
+.con-head #in1:focus{
+    border: unset;
+    outline: unset;
+    border: 1px solid rgb(37, 86, 220);
+}
+.c i{
+    font-size: 15px;
+    padding-left:15px;
+
+}
+.con-head .fir{
+    padding-top: 7px;
+}
+.fir .you{
+    letter-spacing:-1px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-bottom: 3px;
+}
+.las{
+    margin-top: 0;
+
+}
+.las #img1{
+    padding: 10px 0;
+}
+.las #search{
+    display: none;
+}
+
+@media screen and (max-width:665px){
+    .con-head #in1{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:510px){
+    .fir .you{
+        letter-spacing:-1px;
+        font-family: sans-serif;
+        font-weight: 700;
+        padding-bottom: 3px;
+        font-size: 13px;
+    }
+    .con-head #search{
+        display: none;
+    }
+    .con-head #in1{
+        width: 100px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    }
+    .con i{
+        padding: 0 4px;
+        font-size: 15px;
+
+    }
+    .con-head .c{
+        border:unset;
+        background-color: unset;
+    }
+}
+@media screen and (max-width:335px){
+    .con-head #in1{
+        display: none;
+    }
+    .las #search{
+        display: inline-block;
+    }
+    .fir #bars{
+        display: none ;
+    }
+}
+
+/* main section */
+.left i{
+    font-size: 15px;
+}
+.content{
+    margin-left: 10px;
+    /* margin-top: 10px; */
+    /* background-color: #cdcdcd; */
+    display: inline-block;
+    padding: 6px 70px 6px 15px;
+    border-radius: 10px;
+}
+.left #fir{
+    background-color: #f8f4f4;
+    
+}
+.content p{
+    display: inline;
+    /* padding-top: 10px; */
+    padding-left: 20px;
+    font-size: 15px;
+}
+.left{
+    width: 200px;
+    overflow: hidden;
+    /* position: fixed; */
+}
+
+.left #hr{
+    width:90%;
+     margin-left: 10px;
+     margin-right: 60px;
+     margin-top: 10px;
+    color: rgb(223, 223, 220);
+}
